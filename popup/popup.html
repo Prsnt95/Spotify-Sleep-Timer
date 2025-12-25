@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify Sleep Timer</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎵 Sleep Timer</h1>
+    <p class="subtitle">Set a timer to pause Spotify</p>
+    
+    <div id="timer-buttons" class="timer-buttons">
+      <button class="timer-btn" data-seconds="5">5 sec</button>
+      <button class="timer-btn" data-minutes="15">15 min</button>
+      <button class="timer-btn" data-minutes="30">30 min</button>
+      <button class="timer-btn" data-minutes="45">45 min</button>
+      <button class="timer-btn" data-minutes="60">60 min</button>
+    </div>
+
+    <div class="custom-timer">
+      <div class="custom-timer-input-group">
+        <input 
+          type="number" 
+          id="custom-minutes" 
+          class="custom-timer-input" 
+          placeholder="Minutes"
+          min="1"
+          step="1"
+        />
+        <button id="custom-timer-btn" class="custom-timer-btn">Set Custom Timer</button>
+      </div>
+    </div>
+
+    <div id="active-timer" class="active-timer hidden">
+      <div class="timer-display">
+        <p class="timer-label">Timer active</p>
+        <p class="timer-countdown" id="countdown">--:--</p>
+      </div>
+      <button id="cancel-btn" class="cancel-btn">Cancel Timer</button>
+    </div>
+
+    <div id="status" class="status"></div>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
