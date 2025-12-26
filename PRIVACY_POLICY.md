@@ -67,11 +67,5 @@ This extension does not knowingly collect information from children. If you are 
 
 We may update this Privacy Policy from time to time. We will notify you of any changes by updating the "Last Updated" date.
 
-## Contact
-
-If you have any questions about this Privacy Policy, please contact us at: [Your Email Address]
-
----
-
 **Note:** This extension is not affiliated with, endorsed by, or connected to Spotify AB or Spotify USA Inc.
 
