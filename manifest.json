@@ -1,13 +1,11 @@
 {
   "manifest_version": 3,
-  "name": "Spotify Web Sleep Timer",
-  "version": "1.0.0",
-  "description": "Add a sleep timer to Spotify Web Player. Automatically pause music after a set duration.",
+  "name": "Sleep Timer for Spotify & Web Player",
+  "version": "1.0.1",
+  "description": "The missing sleep timer for Spotify Web Player. Automatically stop music, podcasts, and audiobooks to save battery.",
   "permissions": [
     "storage",
     "alarms",
-    "activeTab",
-    "notifications",
     "scripting"
   ],
   "host_permissions": [
@@ -15,6 +13,7 @@
   ],
   "action": {
     "default_popup": "popup/popup.html",
+    "default_title": "Sleep Timer for Spotify",
     "default_icon": {
       "16": "icons/icon16.png",
       "48": "icons/icon48.png",
